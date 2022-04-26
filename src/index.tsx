@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+//o arquivo abaixo serve para reenderizar nossa tela, e pra isso ele ira monta-la dentro de um elemento chamado root, este elemento é uma div que esta em .public/index.html
+//a estrutura app é um componente a estrutura deste componente esta em src app.tsx
 root.render(
   <React.StrictMode>
     <App />
